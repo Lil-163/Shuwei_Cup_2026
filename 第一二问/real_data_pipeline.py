@@ -6,8 +6,21 @@ import numpy as np
 import pandas as pd
 
 def robust_hand_point(points):
-    """Median of the 21 recorded keypoints; no interpolation or fabricated values."""
-    a=np.asarray(points,dtype=float)
+    """Median of the 21 recorded keypoints; no interpolation or fabricated values.
+
+    The same 21x3 logical layout arrives in two physical shapes depending on the
+    archive: EgoDemo cells are (21,) object arrays whose elements are 3-vectors,
+    while EgoPro/EgoStandard rows are plain 21x3 numeric lists. Both are read
+    as recorded, then reduced with the coordinate-wise median.
+    """
+    arr=np.asarray(points,dtype=object)
+    if arr.shape==(21,3):
+        try:
+            a=arr.astype(float)
+        except (TypeError,ValueError):
+            a=np.stack([np.asarray(x,dtype=float).ravel() for x in arr])
+    else:
+        a=np.stack([np.asarray(x,dtype=float).ravel() for x in arr])
     if a.shape!=(21,3):
         raise ValueError(f"Expected 21x3 recorded keypoints, got {a.shape}")
     return np.nanmedian(a,axis=0)
@@ -47,9 +60,15 @@ def _mcap_tables(zf, dataset):
                      if n.startswith(prefix) and "/tables/pose_left_hand.csv" in n})
     for session in sessions:
         pfx=f"{prefix}{session}/tables/"
-        meta=pd.read_csv(io.BytesIO(zf.read(f"{prefix}{session}/session_metadata.csv")),encoding="utf-8-sig")
-        meta=meta.iloc[0].to_dict()
-        episode=str(meta.get("episode_uuid",session)); env=str(meta.get("environment_id",""))
+        meta_raw=pd.read_csv(io.BytesIO(zf.read(f"{prefix}{session}/session_metadata.csv")),encoding="utf-8-sig")
+        # session_metadata.csv is long-format: one row per (field, value) pair.
+        fields={str(k):v for k,v in zip(meta_raw["field"],meta_raw["value"])}
+        episode_raw=fields.get("task_info.episode_uuid")
+        env_raw=fields.get("task_info.environment_id")
+        if episode_raw is None or not isinstance(episode_raw,str) or episode_raw.strip() in ("","nan"):
+            raise ValueError(f"No task_info.episode_uuid in session_metadata for {dataset}/{session}")
+        episode=episode_raw.strip()
+        env=str(env_raw).strip() if env_raw is not None and str(env_raw).strip() not in ("","nan") else ""
         flag_path=pfx+"annotation_bad_frame_pose_hand.csv"
         flags=pd.read_csv(io.BytesIO(zf.read(flag_path)))
         bad_col="is_bad" if "is_bad" in flags else None

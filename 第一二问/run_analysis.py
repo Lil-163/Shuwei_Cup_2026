@@ -7,7 +7,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, brier_score_loss
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, brier_score_loss, balanced_accuracy_score
 from real_data_pipeline import load_split, load_sequences, attach_split
 from models import CVKalman, cv_matrices
 
@@ -51,6 +51,10 @@ def q1(sequences, outdir):
         row={"split":part,"n_frames":len(d),"good_rate":float(d.good.mean()),
              "accuracy":accuracy_score(d.good,pred),"precision":precision_score(d.good,pred,zero_division=0),
              "recall":recall_score(d.good,pred,zero_division=0),"f1":f1_score(d.good,pred,zero_division=0),
+             "bad_precision":precision_score(1-d.good,1-pred,zero_division=0),
+             "bad_recall":recall_score(1-d.good,1-pred,zero_division=0),
+             "balanced_accuracy":balanced_accuracy_score(d.good,pred),
+             "majority_accuracy":float(max(d.good.mean(),1-d.good.mean())),
              "brier":brier_score_loss(d.good,prob)}
         if d.good.nunique()==2: row["auc"]=roc_auc_score(d.good,prob)
         metrics.append(row)
@@ -141,7 +145,10 @@ def replay_fold(sequences, split, accel_var, measurement_var, outdir):
             rpos=p[run]; rt=t[run]
             if len(run)<10: continue
             # Fixed artificial masks are contiguous slices of this real held-out sequence.
-            for duration in (0.25,0.5,1.0):
+            # Durations must include windows longer than the 1 s response delay, otherwise
+            # a delayed re-observation can never arrive inside the masked window and the
+            # request rule degenerates to constant-velocity with zero review cost.
+            for duration in (0.25,0.5,1.0,1.5,2.0):
                 start=2
                 while start+2<len(run):
                     end=start
@@ -198,9 +205,9 @@ def main():
         if len(ids)>2:
             # For locally smooth motion, the variance of the second difference is
             # approximately 6 times independent coordinate measurement-noise variance.
-            for a,b,c in zip(ids[:-2],ids[1:-1],ids[2:]):
-                if b==a+1 and c==b+1:
-                    residual.extend((p[c]-2*p[b]+p[a]).tolist())
+            for ia,ib,ic in zip(ids[:-2],ids[1:-1],ids[2:]):
+                if ib==ia+1 and ic==ib+1:
+                    residual.extend((p[ic]-2*p[ib]+p[ia]).tolist())
     measurement_var=max(float(np.var(residual)/6) if residual else 1e-6,1e-8)
     threshold,q2summary=replay_fold(seqs,split,accel_var,measurement_var,a.output)
     report={"real_sequences":len(seqs),"frames":int(audit.frames.sum()),
