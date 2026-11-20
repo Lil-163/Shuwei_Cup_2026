@@ -1,26 +1,53 @@
-# C题第一、二问：手部状态与遮挡回放
+# C题第一、二问代码框架
 
-## 做法
+本目录只实现第一、二问。程序以附件中的 `EgoDemo.zip`、`EgoPro.zip`、`EgoStandard.zip` 和官方环境划分表为数据来源，不合成训练样本，也不把人的手部状态解释成商品位置。
 
-这版按建模竞赛里容易解释、能复现的思路做：先把每只手的21个三维关键点取坐标中位数，作为该帧手部代表点；再用帧间速度和加速度变化、时间间隔、坐标是否完整，加上题目提供的坏帧标记，训练逻辑回归判断观测是否合格。模型不把手的位置当成商品位置。
+## 文件分工
 
-状态预测用常速度卡尔曼滤波。对照组是“保持最后一次位置”和“按前两帧速度外推”。重新观测策略在位置不确定性超过验证集校准阈值时发出请求，按附件中的1秒返回延迟处理，最多请求3次。复核只使用该真实记录里确实存在的合格样本。
+- `real_data_pipeline.py`：解读三种原始数据结构；按 `episode_uuid` 对齐官方划分；将21个三维关键点压缩为坐标逐维中位数；对齐坏帧标记和语义阶段；保留时间重复、标签覆盖等审计信息。
+- `models.py`：实现共用的六维常速度卡尔曼模型，并在代码注释中说明状态定义、过程噪声和观测残差尺度。
+- `run_analysis.py`：总入口。分为数据审计、第一问质量分类、第一问状态预测、第二问人工遮挡回放、自然低质量区间统计和图片输出。
+- `requirements.txt`：运行所需的 Python 包。
 
-## 数据边界
+## 关键函数
 
-- 训练数据只取题目附带的 EgoDemo、EgoPro、EgoStandard 三个压缩包。
-- 训练、验证、测试严格使用 `record_split.csv` 的环境划分；不会把同一环境拆到不同集合。
-- EgoDemo坏帧标签来自 `bad_frame_ratio.json`；EgoPro/EgoStandard来自 `annotation_bad_frame_pose_hand.csv`。
-- 问题二只在测试集真实连续片段上人工遮蔽观测，以被遮蔽的原始样本作评估参考，不合成轨迹，也不补造缺失样本。
-- 坐标/字段或官方数据划分对不上时程序直接报错，不猜测映射。
+- `frame_features`：只由当前和过去的手部坐标构造时间间隔、速度和加速度特征；坐标完整性单独作为硬性质量门槛，避免作为模型输入泄漏到标签。
+- `fit_quality_model`：仅在训练集拟合逻辑回归，仅用验证集选择坏帧阈值，测试集只做最终评价；同时输出多数类基线、坏帧召回率、精确率、平衡准确率和 Brier 分数。
+- `estimate_motion_parameters`：仅由训练环境估计状态模型尺度，并按环境重抽样给出经验区间。
+- `one_step_state_replay`：比较末值保持、常速度外推、卡尔曼预测；每条记录单独评价，再按数据源和环境汇总。
+- `predict_hidden_window`：第二问的因果回放。窗口内真实坐标只供评估使用；只有在请求返回时，才将原始记录里真实存在的坐标交给模型更新。
+- `audit_quality_runs`：统计原始低质量标记连续段及下一次合格观测的恢复时间；不对这些低质量坐标计算“真值误差”。
+- `save_figures`：从结果汇总表生成英文 PNG 图，避免图中的中文字体影响论文排版。
 
-## 运行
+## PyCharm 运行
 
-在 PyCharm 选择包含 pandas、numpy、scikit-learn、pyarrow 的 Python 环境，运行 `run_analysis.py` 并传入数据目录：
+在 PyCharm 打开本目录的上一级项目，选择安装了 `requirements.txt` 依赖的解释器，并将下面命令配置为运行参数：
 
 ```text
---data-root <解压目录>/Restocking_Problem_and_Data_EN
+--data-root "<题目数据目录>/Restocking_Problem_and_Data_EN"
 --output outputs
 ```
 
-结果写入输出目录：`record_audit.csv`、`q1_observation_audit.csv`、`q1_quality_metrics.csv`、`q2_test_replay.csv`、`q2_summary.csv` 和 `results.json`。测试集指标只在所有规则固定后计算。回放实验不等同于真实机器人现场性能。
+也可以在 PyCharm Terminal 执行：
+
+```text
+python run_analysis.py --data-root "<题目数据目录>/Restocking_Problem_and_Data_EN" --output outputs
+```
+
+## 主要结果文件
+
+- `outputs/record_audit.csv`：每条记录、左右手的帧数、重复时间戳、坐标完整率、质量标签覆盖率和语义阶段覆盖率。
+- `outputs/q1_quality_metrics.csv`：验证集阈值选择结果与测试集质量分类结果。
+- `outputs/q1_state_metrics.csv`、`q1_state_by_stage.csv`：状态预测误差的环境和阶段汇总。
+- `outputs/q2_summary.csv`、`q2_by_stage.csv`：不同遮挡时长下的误差、区间覆盖、区间半径、请求成本和等待时间。
+- `outputs/low_quality_events.csv`、`low_quality_summary.csv`：自然记录中低质量标记的持续与恢复情况。
+- `outputs/figures/`：状态误差、遮挡误差、请求成本与区间覆盖图。
+- `outputs/results.json`：关键模型参数、实验条件、样本计数和输出文件名。
+
+## 固定实验条件与解释边界
+
+第二问预先固定遮挡时长为 0.25、0.5、1、1.5、2 秒，单次返回延迟为 1 秒，每个窗口最多请求 3 次，每次请求成本为 1 个实验单位。自适应复核阈值和名义90%区间尺度仅用验证集校准。末值、常速度、固定间隔复核和自适应复核在同一遮挡窗口及预算下比较。
+
+语义阶段沿用附件自然语言分段，不将其强行改名为统一的“取货/放置”等动作标签。参考轨迹来自合格的留出记录，不是独立物理真值。人工遮挡结果不代表机器人现场性能；位置坐标的误差单位沿用源记录坐标单位。
+
+数维杯论文格式规范要求参赛论文用英文，程序源码须作为附录或支撑材料提供；这些要求约束论文与最终提交材料，不改变 Python 代码的运行规则。
