@@ -1,139 +1,139 @@
-dataset,episode_uuid,environment_id,split,side,frames,valid_fraction,bad_fraction
-EgoDemo,1e3b4ce1-a1d2-4f23-9c21-448a039474b7,logistics_x_courier_station_0021,train,left,1619,1.0,0.012353304508956145
-EgoDemo,1e3b4ce1-a1d2-4f23-9c21-448a039474b7,logistics_x_courier_station_0021,train,right,1619,1.0,0.0
-EgoDemo,6ec5523a-32da-4d82-9cc5-c1351c34c95f,logistics_x_courier_station_0021,train,left,1686,1.0,0.018386714116251483
-EgoDemo,6ec5523a-32da-4d82-9cc5-c1351c34c95f,logistics_x_courier_station_0021,train,right,1686,1.0,0.01542111506524318
-EgoDemo,52e6f31b-78f3-4f35-aad0-cd7040d66416,home_x_apartment_0342,train,left,289,1.0,0.0
-EgoDemo,52e6f31b-78f3-4f35-aad0-cd7040d66416,home_x_apartment_0342,train,right,289,1.0,0.0
-EgoDemo,af60c499-38a4-4344-a206-775b368a84ab,home_x_apartment_0342,train,left,316,1.0,0.0
-EgoDemo,af60c499-38a4-4344-a206-775b368a84ab,home_x_apartment_0342,train,right,316,1.0,0.0
-EgoDemo,08f1a932-5d51-40cb-8bf5-18d008259415,home_x_apartment_0342,train,left,331,1.0,0.0
-EgoDemo,08f1a932-5d51-40cb-8bf5-18d008259415,home_x_apartment_0342,train,right,331,1.0,0.006042296072507553
-EgoDemo,85484a04-5053-40a8-a87d-697789a90c0d,retail_x_supermarket_0054,train,left,348,1.0,0.0
-EgoDemo,85484a04-5053-40a8-a87d-697789a90c0d,retail_x_supermarket_0054,train,right,348,1.0,0.0
-EgoDemo,968e0745-70d1-45f4-b43b-120e1a4cbbf6,retail_x_supermarket_0121,train,left,1766,1.0,0.022083805209513023
-EgoDemo,968e0745-70d1-45f4-b43b-120e1a4cbbf6,retail_x_supermarket_0121,train,right,1766,1.0,0.014722536806342015
-EgoDemo,97e9328b-c756-4ebe-9885-7ebfdf59e382,retail_x_supermarket_0054,train,left,564,1.0,0.0
-EgoDemo,97e9328b-c756-4ebe-9885-7ebfdf59e382,retail_x_supermarket_0054,train,right,564,1.0,0.0
-EgoDemo,9f8a657c-0665-474c-b924-4853f1ae8ee7,retail_x_supermarket_0037,train,left,325,1.0,0.0
-EgoDemo,9f8a657c-0665-474c-b924-4853f1ae8ee7,retail_x_supermarket_0037,train,right,325,1.0,0.0
-EgoDemo,cd1706f6-43ef-451b-bb69-a36d0c9524f7,retail_x_supermarket_0054,train,left,383,1.0,0.015665796344647518
-EgoDemo,cd1706f6-43ef-451b-bb69-a36d0c9524f7,retail_x_supermarket_0054,train,right,383,1.0,0.02349869451697128
-EgoDemo,86dc5712-9423-4ae7-851d-fd58157a4ddb,retail_x_supermarket_0037,train,left,339,1.0,0.0
-EgoDemo,86dc5712-9423-4ae7-851d-fd58157a4ddb,retail_x_supermarket_0037,train,right,339,1.0,0.0
-EgoDemo,a485d700-d79c-4dcb-9a6f-bf11039efeda,retail_x_supermarket_0054,train,left,220,1.0,0.0
-EgoDemo,a485d700-d79c-4dcb-9a6f-bf11039efeda,retail_x_supermarket_0054,train,right,220,1.0,0.0
-EgoDemo,24ce2782-4673-434e-920e-634bafe6d8df,retail_x_supermarket_0125,train,left,685,1.0,0.0
-EgoDemo,24ce2782-4673-434e-920e-634bafe6d8df,retail_x_supermarket_0125,train,right,685,1.0,0.0
-EgoDemo,1096a614-6027-4ae2-9fb2-abc9399d17a5,retail_x_supermarket_0058,train,left,235,1.0,0.0
-EgoDemo,1096a614-6027-4ae2-9fb2-abc9399d17a5,retail_x_supermarket_0058,train,right,235,1.0,0.0
-EgoDemo,f8f67408-39c6-47a4-b652-8c77edc4a407,retail_x_supermarket_0147,validation,left,606,1.0,0.0
-EgoDemo,f8f67408-39c6-47a4-b652-8c77edc4a407,retail_x_supermarket_0147,validation,right,606,1.0,0.0
-EgoDemo,893ecfc5-e7d7-4760-bb0b-6370379a052e,retail_x_supermarket_0054,train,left,214,1.0,0.0
-EgoDemo,893ecfc5-e7d7-4760-bb0b-6370379a052e,retail_x_supermarket_0054,train,right,214,1.0,0.0
-EgoDemo,21cab582-4ee0-439d-a5d6-d5db9bcb4e4e,retail_x_supermarket_0054,train,left,239,1.0,0.0
-EgoDemo,21cab582-4ee0-439d-a5d6-d5db9bcb4e4e,retail_x_supermarket_0054,train,right,239,1.0,0.0
-EgoDemo,6f98461d-229f-4519-8949-b2d017ee5aed,retail_x_supermarket_0078,test,left,257,1.0,0.0
-EgoDemo,6f98461d-229f-4519-8949-b2d017ee5aed,retail_x_supermarket_0078,test,right,257,1.0,0.0
-EgoDemo,ff465fb3-2207-4ce2-a17a-ef6a5a74f7fc,retail_x_supermarket_0078,test,left,391,1.0,0.0
-EgoDemo,ff465fb3-2207-4ce2-a17a-ef6a5a74f7fc,retail_x_supermarket_0078,test,right,391,1.0,0.0
-EgoDemo,e1f63796-8907-468d-8de9-50fa93e427f9,retail_x_supermarket_0054,train,left,195,1.0,0.0
-EgoDemo,e1f63796-8907-468d-8de9-50fa93e427f9,retail_x_supermarket_0054,train,right,195,1.0,0.0
-EgoDemo,b71b0c3b-cb37-454f-b530-63f8daf35392,retail_x_supermarket_0054,train,left,249,1.0,0.0
-EgoDemo,b71b0c3b-cb37-454f-b530-63f8daf35392,retail_x_supermarket_0054,train,right,249,1.0,0.0
-EgoDemo,f615c5c8-5a1d-4075-91b2-1082efe17de9,retail_x_supermarket_0058,train,left,239,1.0,0.0
-EgoDemo,f615c5c8-5a1d-4075-91b2-1082efe17de9,retail_x_supermarket_0058,train,right,239,1.0,0.0
-EgoDemo,2915d2d9-fc74-4358-9741-72ac79ab816f,retail_x_supermarket_0049,train,left,679,1.0,0.0
-EgoDemo,2915d2d9-fc74-4358-9741-72ac79ab816f,retail_x_supermarket_0049,train,right,679,1.0,0.0
-EgoDemo,36141a13-aadf-49a3-a08b-83128cffb593,retail_x_supermarket_0058,train,left,305,1.0,0.0
-EgoDemo,36141a13-aadf-49a3-a08b-83128cffb593,retail_x_supermarket_0058,train,right,305,1.0,0.0
-EgoDemo,b76d4a5c-4f60-4042-a3ea-5f059f52c321,retail_x_supermarket_0066,train,left,179,1.0,0.0
-EgoDemo,b76d4a5c-4f60-4042-a3ea-5f059f52c321,retail_x_supermarket_0066,train,right,179,1.0,0.0
-EgoDemo,6fc6bf4f-a97d-4a59-8bbb-befa93d53a8c,retail_x_supermarket_0074,validation,left,791,1.0,0.0
-EgoDemo,6fc6bf4f-a97d-4a59-8bbb-befa93d53a8c,retail_x_supermarket_0074,validation,right,791,1.0,0.0
-EgoDemo,31eb209c-51c1-4fa0-a5de-e4839dec6d1a,retail_x_convenience_0014,train,left,1661,1.0,0.0
-EgoDemo,31eb209c-51c1-4fa0-a5de-e4839dec6d1a,retail_x_convenience_0014,train,right,1661,1.0,0.0
-EgoDemo,d539b696-53fa-4282-a6b3-2ecf77be4cc5,home_x_apartment_0342,train,left,338,1.0,0.0
-EgoDemo,d539b696-53fa-4282-a6b3-2ecf77be4cc5,home_x_apartment_0342,train,right,338,1.0,0.0
-EgoDemo,79e59cee-27ef-4793-9115-cab4968448ec,home_x_apartment_0342,train,left,286,1.0,0.0
-EgoDemo,79e59cee-27ef-4793-9115-cab4968448ec,home_x_apartment_0342,train,right,286,1.0,0.0
-EgoDemo,524cf2bd-b986-470e-81b7-3ec0afb3426e,home_x_apartment_0342,train,left,298,1.0,0.0
-EgoDemo,524cf2bd-b986-470e-81b7-3ec0afb3426e,home_x_apartment_0342,train,right,298,1.0,0.0
-EgoDemo,afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,home_x_apartment_0342,train,left,381,1.0,0.0
-EgoDemo,afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,home_x_apartment_0342,train,right,381,1.0,0.0
-EgoPro,33286224-adbe-4615-8bec-283d0fb99a45,logistics_x_courier_station_0021,train,left,2458,1.0,0.0
-EgoPro,33286224-adbe-4615-8bec-283d0fb99a45,logistics_x_courier_station_0021,train,right,2458,1.0,0.0
-EgoPro,1a0ac173-f104-4cd0-8959-8c61da6bae1b,office_x_corporate_office_0086,train,left,181,1.0,0.0
-EgoPro,1a0ac173-f104-4cd0-8959-8c61da6bae1b,office_x_corporate_office_0086,train,right,181,1.0,0.0
-EgoPro,3da72d6d-367e-438d-bb3b-b611675f1b7a,logistics_x_courier_station_0022,validation,left,1704,1.0,0.02640845070422535
-EgoPro,3da72d6d-367e-438d-bb3b-b611675f1b7a,logistics_x_courier_station_0022,validation,right,1704,1.0,0.02640845070422535
-EgoPro,8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,office_x_corporate_office_0086,train,left,1503,1.0,0.0
-EgoPro,8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,office_x_corporate_office_0086,train,right,1503,1.0,0.0
-EgoPro,3cd0ae33-561c-491a-b903-24cfffcb59e4,hospitality_x_restaurant_0004,validation,left,1150,1.0,0.04
-EgoPro,3cd0ae33-561c-491a-b903-24cfffcb59e4,hospitality_x_restaurant_0004,validation,right,1150,1.0,0.04
-EgoPro,6cc274d0-beda-4be1-974b-e20c6d20cf4b,logistics_x_courier_station_0022,validation,left,1004,1.0,0.0
-EgoPro,6cc274d0-beda-4be1-974b-e20c6d20cf4b,logistics_x_courier_station_0022,validation,right,1004,1.0,0.0
-EgoPro,3f45e623-4332-4dc2-a466-656864ae43dd,logistics_x_courier_station_0011,test,left,1650,1.0,0.07212121212121213
-EgoPro,3f45e623-4332-4dc2-a466-656864ae43dd,logistics_x_courier_station_0011,test,right,1650,1.0,0.07212121212121213
-EgoPro,c91705a7-1eb7-4b26-a543-124d90053f12,office_x_corporate_office_0086,train,left,1374,1.0,0.0
-EgoPro,c91705a7-1eb7-4b26-a543-124d90053f12,office_x_corporate_office_0086,train,right,1374,1.0,0.0
-EgoPro,a80b2d35-d1ea-4bee-9dc0-59de311785d4,logistics_x_courier_station_0022,validation,left,995,1.0,0.0
-EgoPro,a80b2d35-d1ea-4bee-9dc0-59de311785d4,logistics_x_courier_station_0022,validation,right,995,1.0,0.0
-EgoPro,f4c848a2-f864-4aef-b235-87e13cad3ae3,office_x_corporate_office_0086,train,left,1022,1.0,0.043052837573385516
-EgoPro,f4c848a2-f864-4aef-b235-87e13cad3ae3,office_x_corporate_office_0086,train,right,1022,1.0,0.043052837573385516
-EgoPro,0469c73b-fa42-4a7c-aec4-40029b0c6b7f,logistics_x_courier_station_0011,test,left,1487,1.0,0.03295225285810356
-EgoPro,0469c73b-fa42-4a7c-aec4-40029b0c6b7f,logistics_x_courier_station_0011,test,right,1487,1.0,0.03295225285810356
-EgoPro,df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,home_x_apartment_0701,train,left,1482,1.0,0.047908232118758436
-EgoPro,df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,home_x_apartment_0701,train,right,1482,1.0,0.047908232118758436
-EgoPro,733980b8-22ef-484e-9a20-39ff998d01a0,home_x_apartment_0701,train,left,1442,1.0,0.024965325936199722
-EgoPro,733980b8-22ef-484e-9a20-39ff998d01a0,home_x_apartment_0701,train,right,1442,1.0,0.024965325936199722
-EgoPro,75733965-f12b-487c-afc6-9301a617caa3,office_x_corporate_office_0086,train,left,190,1.0,0.0
-EgoPro,75733965-f12b-487c-afc6-9301a617caa3,office_x_corporate_office_0086,train,right,190,1.0,0.0
-EgoStandard,3fab4ba6-f91a-4f16-a622-940e721e579e,retail_x_supermarket_0054,train,left,528,1.0,0.022727272727272728
-EgoStandard,3fab4ba6-f91a-4f16-a622-940e721e579e,retail_x_supermarket_0054,train,right,528,1.0,0.022727272727272728
-EgoStandard,b46b05b7-8ae6-47f7-b24d-ffde79cc1bbf,retail_x_supermarket_0054,train,left,242,1.0,0.0
-EgoStandard,b46b05b7-8ae6-47f7-b24d-ffde79cc1bbf,retail_x_supermarket_0054,train,right,242,1.0,0.0
-EgoStandard,90c4897a-336c-4026-b015-28951adf0047,retail_x_supermarket_0054,train,left,334,1.0,0.020958083832335328
-EgoStandard,90c4897a-336c-4026-b015-28951adf0047,retail_x_supermarket_0054,train,right,334,1.0,0.020958083832335328
-EgoStandard,3a260141-6612-4ae3-985d-ee91e4dab986,retail_x_supermarket_0054,train,left,385,1.0,0.0
-EgoStandard,3a260141-6612-4ae3-985d-ee91e4dab986,retail_x_supermarket_0054,train,right,385,1.0,0.0
-EgoStandard,157d3f97-601d-4407-8f10-e0734b35efb9,retail_x_supermarket_0037,train,left,318,1.0,0.012578616352201259
-EgoStandard,157d3f97-601d-4407-8f10-e0734b35efb9,retail_x_supermarket_0037,train,right,318,1.0,0.012578616352201259
-EgoStandard,9a4fe4c1-c6e3-4a7a-8e2c-ec7901abe2c0,retail_x_supermarket_0054,train,left,220,1.0,0.0
-EgoStandard,9a4fe4c1-c6e3-4a7a-8e2c-ec7901abe2c0,retail_x_supermarket_0054,train,right,220,1.0,0.0
-EgoStandard,349e9a2e-eeaa-48d2-9893-db716410425e,retail_x_supermarket_0054,train,left,325,1.0,0.0
-EgoStandard,349e9a2e-eeaa-48d2-9893-db716410425e,retail_x_supermarket_0054,train,right,325,1.0,0.0
-EgoStandard,028b3d0d-11a6-4d3f-bd9b-8915ba281b3e,retail_x_supermarket_0074,validation,left,533,1.0,0.0675422138836773
-EgoStandard,028b3d0d-11a6-4d3f-bd9b-8915ba281b3e,retail_x_supermarket_0074,validation,right,533,1.0,0.0675422138836773
-EgoStandard,54b5eb6e-b47a-403c-810e-bf8082c2ce31,retail_x_supermarket_0037,train,left,325,1.0,0.0
-EgoStandard,54b5eb6e-b47a-403c-810e-bf8082c2ce31,retail_x_supermarket_0037,train,right,325,1.0,0.0
-EgoStandard,40861671-d69c-41ee-9918-7527bdb8777f,retail_x_supermarket_0054,train,left,353,1.0,0.0
-EgoStandard,40861671-d69c-41ee-9918-7527bdb8777f,retail_x_supermarket_0054,train,right,353,1.0,0.0
-EgoStandard,491ff057-af89-4d0e-adea-2b3004b95d0d,retail_x_supermarket_0058,train,left,213,1.0,0.0
-EgoStandard,491ff057-af89-4d0e-adea-2b3004b95d0d,retail_x_supermarket_0058,train,right,213,1.0,0.0
-EgoStandard,51561b02-2c99-495d-bdfb-d74a5f68f0c5,logistics_x_courier_station_0011,test,left,3180,1.0,0.014150943396226415
-EgoStandard,51561b02-2c99-495d-bdfb-d74a5f68f0c5,logistics_x_courier_station_0011,test,right,3180,1.0,0.014150943396226415
-EgoStandard,ec1f4754-8cec-4ae1-8695-dc90cb465344,retail_x_supermarket_0058,train,left,267,1.0,0.0
-EgoStandard,ec1f4754-8cec-4ae1-8695-dc90cb465344,retail_x_supermarket_0058,train,right,267,1.0,0.0
-EgoStandard,8b40cbcf-0808-4641-8c9e-a8e882fda95e,retail_x_supermarket_0054,train,left,311,1.0,0.0
-EgoStandard,8b40cbcf-0808-4641-8c9e-a8e882fda95e,retail_x_supermarket_0054,train,right,311,1.0,0.0
-EgoStandard,07648562-93fd-434a-ac35-5713f5375b1d,retail_x_supermarket_0058,train,left,327,1.0,0.0
-EgoStandard,07648562-93fd-434a-ac35-5713f5375b1d,retail_x_supermarket_0058,train,right,327,1.0,0.0
-EgoStandard,bd808e2d-fdc2-4b78-8fef-fe7a2b1de958,retail_x_supermarket_0071,train,left,4012,1.0,0.007477567298105683
-EgoStandard,bd808e2d-fdc2-4b78-8fef-fe7a2b1de958,retail_x_supermarket_0071,train,right,4012,1.0,0.007477567298105683
-EgoStandard,8ec22d0a-cf07-4b8c-b173-c53cbb5ee02c,logistics_x_courier_station_0041,test,left,3637,1.0,0.004949133901567226
-EgoStandard,8ec22d0a-cf07-4b8c-b173-c53cbb5ee02c,logistics_x_courier_station_0041,test,right,3637,1.0,0.004949133901567226
-EgoStandard,24f6fdd7-ea84-43ae-ad73-cf2c123ad61e,retail_x_supermarket_0058,train,left,242,1.0,0.0
-EgoStandard,24f6fdd7-ea84-43ae-ad73-cf2c123ad61e,retail_x_supermarket_0058,train,right,242,1.0,0.0
-EgoStandard,8d4b17e2-ac7c-4d06-8e94-b495eb842a0e,retail_x_supermarket_0124,train,left,3945,1.0,0.0
-EgoStandard,8d4b17e2-ac7c-4d06-8e94-b495eb842a0e,retail_x_supermarket_0124,train,right,3945,1.0,0.0
-EgoStandard,550f7ffa-f7cd-4d6a-ab0a-81610ead2dc7,retail_x_supermarket_0059,train,left,5220,1.0,0.019731800766283523
-EgoStandard,550f7ffa-f7cd-4d6a-ab0a-81610ead2dc7,retail_x_supermarket_0059,train,right,5220,1.0,0.019731800766283523
-EgoStandard,eac65645-5b2d-4f2b-91a8-3a0f690339de,retail_x_supermarket_0087,train,left,4428,1.0,0.009033423667570008
-EgoStandard,eac65645-5b2d-4f2b-91a8-3a0f690339de,retail_x_supermarket_0087,train,right,4428,1.0,0.009033423667570008
-EgoStandard,01480728-a6b7-4171-9a96-777e6210b672,retail_x_supermarket_0054,train,left,494,1.0,0.030364372469635626
-EgoStandard,01480728-a6b7-4171-9a96-777e6210b672,retail_x_supermarket_0054,train,right,494,1.0,0.030364372469635626
-EgoStandard,52dcf38e-ec4c-424e-91dd-8e1c63ba9e9b,retail_x_supermarket_0054,train,left,536,1.0,0.0
-EgoStandard,52dcf38e-ec4c-424e-91dd-8e1c63ba9e9b,retail_x_supermarket_0054,train,right,536,1.0,0.0
-EgoStandard,b02f85bd-fc26-4c2a-96e6-cb97f653eb22,retail_x_supermarket_0159,test,left,1639,1.0,0.0
-EgoStandard,b02f85bd-fc26-4c2a-96e6-cb97f653eb22,retail_x_supermarket_0159,test,right,1639,1.0,0.0
+dataset,episode_uuid,environment_id,split,scene_id,operator_id,side,frames,duplicate_timestamps,nonincreasing_timestamps,missing_timestamps,valid_coordinate_fraction,quality_annotation_coverage,bad_flag_rate,semantic_stage_coverage,duration_s
+EgoDemo,1e3b4ce1-a1d2-4f23-9c21-448a039474b7,logistics_x_courier_station_0021,train,package_room_x_000021,f6a6cd25-0a55-4b77-90ad-01a32164afb6,left,1619,0,0,0,1.0,1.0,0.012353304508956145,0.9975293390982087,53.93333435058594
+EgoDemo,1e3b4ce1-a1d2-4f23-9c21-448a039474b7,logistics_x_courier_station_0021,train,package_room_x_000021,f6a6cd25-0a55-4b77-90ad-01a32164afb6,right,1619,0,0,0,1.0,1.0,0.0,0.9975293390982087,53.93333435058594
+EgoDemo,6ec5523a-32da-4d82-9cc5-c1351c34c95f,logistics_x_courier_station_0021,train,package_room_x_000021,f6a6cd25-0a55-4b77-90ad-01a32164afb6,left,1686,0,0,0,1.0,1.0,0.018386714116251483,0.99644128113879,56.16666793823242
+EgoDemo,6ec5523a-32da-4d82-9cc5-c1351c34c95f,logistics_x_courier_station_0021,train,package_room_x_000021,f6a6cd25-0a55-4b77-90ad-01a32164afb6,right,1686,0,0,0,1.0,1.0,0.01542111506524318,0.99644128113879,56.16666793823242
+EgoDemo,52e6f31b-78f3-4f35-aad0-cd7040d66416,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,left,289,0,0,0,1.0,1.0,0.0,0.9965397923875432,9.600000381469727
+EgoDemo,52e6f31b-78f3-4f35-aad0-cd7040d66416,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,right,289,0,0,0,1.0,1.0,0.0,0.9965397923875432,9.600000381469727
+EgoDemo,af60c499-38a4-4344-a206-775b368a84ab,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,left,316,0,0,0,1.0,1.0,0.0,0.9873417721518988,10.500349998474121
+EgoDemo,af60c499-38a4-4344-a206-775b368a84ab,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,right,316,0,0,0,1.0,1.0,0.0,0.9873417721518988,10.500349998474121
+EgoDemo,08f1a932-5d51-40cb-8bf5-18d008259415,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,left,331,0,0,0,1.0,1.0,0.0,1.0,10.998900413513184
+EgoDemo,08f1a932-5d51-40cb-8bf5-18d008259415,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,right,331,0,0,0,1.0,1.0,0.006042296072507553,1.0,10.998900413513184
+EgoDemo,85484a04-5053-40a8-a87d-697789a90c0d,retail_x_supermarket_0054,train,shelf_x_000470,77701a30-5659-4ed4-9b26-3eafdab3ca95,left,348,0,0,0,1.0,1.0,0.0,0.9913793103448276,13.880000114440918
+EgoDemo,85484a04-5053-40a8-a87d-697789a90c0d,retail_x_supermarket_0054,train,shelf_x_000470,77701a30-5659-4ed4-9b26-3eafdab3ca95,right,348,0,0,0,1.0,1.0,0.0,0.9913793103448276,13.880000114440918
+EgoDemo,968e0745-70d1-45f4-b43b-120e1a4cbbf6,retail_x_supermarket_0121,train,shelf_x_000520,2a5fd91d-3c73-4c69-a5de-0fff846d4b75,left,1766,0,0,0,1.0,1.0,0.022083805209513023,0.9994337485843715,58.83333206176758
+EgoDemo,968e0745-70d1-45f4-b43b-120e1a4cbbf6,retail_x_supermarket_0121,train,shelf_x_000520,2a5fd91d-3c73-4c69-a5de-0fff846d4b75,right,1766,0,0,0,1.0,1.0,0.014722536806342015,0.9994337485843715,58.83333206176758
+EgoDemo,97e9328b-c756-4ebe-9885-7ebfdf59e382,retail_x_supermarket_0054,train,shelf_x_000468,c6944d98-9da3-49fc-887f-d9357fdc47b1,left,564,0,0,0,1.0,1.0,0.0,0.9893617021276596,18.766666412353516
+EgoDemo,97e9328b-c756-4ebe-9885-7ebfdf59e382,retail_x_supermarket_0054,train,shelf_x_000468,c6944d98-9da3-49fc-887f-d9357fdc47b1,right,564,0,0,0,1.0,1.0,0.0,0.9893617021276596,18.766666412353516
+EgoDemo,9f8a657c-0665-474c-b924-4853f1ae8ee7,retail_x_supermarket_0037,train,shelf_x_000397,bb853a77-b435-4c65-8c19-e96ca13bfff9,left,325,0,0,0,1.0,1.0,0.0,0.9969230769230769,10.800000190734863
+EgoDemo,9f8a657c-0665-474c-b924-4853f1ae8ee7,retail_x_supermarket_0037,train,shelf_x_000397,bb853a77-b435-4c65-8c19-e96ca13bfff9,right,325,0,0,0,1.0,1.0,0.0,0.9969230769230769,10.800000190734863
+EgoDemo,cd1706f6-43ef-451b-bb69-a36d0c9524f7,retail_x_supermarket_0054,train,shelf_x_000468,acf345e1-d8ea-442c-aebb-a2ae99a60aed,left,383,0,0,0,1.0,1.0,0.015665796344647518,0.9738903394255874,12.733333587646484
+EgoDemo,cd1706f6-43ef-451b-bb69-a36d0c9524f7,retail_x_supermarket_0054,train,shelf_x_000468,acf345e1-d8ea-442c-aebb-a2ae99a60aed,right,383,0,0,0,1.0,1.0,0.02349869451697128,0.9738903394255874,12.733333587646484
+EgoDemo,86dc5712-9423-4ae7-851d-fd58157a4ddb,retail_x_supermarket_0037,train,shelf_x_000397,bb853a77-b435-4c65-8c19-e96ca13bfff9,left,339,0,0,0,1.0,1.0,0.0,0.9941002949852508,11.266666412353516
+EgoDemo,86dc5712-9423-4ae7-851d-fd58157a4ddb,retail_x_supermarket_0037,train,shelf_x_000397,bb853a77-b435-4c65-8c19-e96ca13bfff9,right,339,0,0,0,1.0,1.0,0.0,0.9941002949852508,11.266666412353516
+EgoDemo,a485d700-d79c-4dcb-9a6f-bf11039efeda,retail_x_supermarket_0054,train,shelf_x_000470,9ccf7783-0f05-4a8d-90a1-299eab21e46c,left,220,0,0,0,1.0,1.0,0.0,0.9772727272727273,8.760000228881836
+EgoDemo,a485d700-d79c-4dcb-9a6f-bf11039efeda,retail_x_supermarket_0054,train,shelf_x_000470,9ccf7783-0f05-4a8d-90a1-299eab21e46c,right,220,0,0,0,1.0,1.0,0.0,0.9772727272727273,8.760000228881836
+EgoDemo,24ce2782-4673-434e-920e-634bafe6d8df,retail_x_supermarket_0125,train,shelf_x_000529,8fe2a306-319a-4d3a-b6c8-0e21ab74fc5d,left,685,0,0,0,1.0,1.0,0.0,1.0,22.799999237060547
+EgoDemo,24ce2782-4673-434e-920e-634bafe6d8df,retail_x_supermarket_0125,train,shelf_x_000529,8fe2a306-319a-4d3a-b6c8-0e21ab74fc5d,right,685,0,0,0,1.0,1.0,0.0,1.0,22.799999237060547
+EgoDemo,1096a614-6027-4ae2-9fb2-abc9399d17a5,retail_x_supermarket_0058,train,shelf_x_000451,5d11fd0b-8448-4d3f-a101-69427fcc0ca1,left,235,0,0,0,1.0,1.0,0.0,0.9957446808510638,7.800000190734863
+EgoDemo,1096a614-6027-4ae2-9fb2-abc9399d17a5,retail_x_supermarket_0058,train,shelf_x_000451,5d11fd0b-8448-4d3f-a101-69427fcc0ca1,right,235,0,0,0,1.0,1.0,0.0,0.9957446808510638,7.800000190734863
+EgoDemo,f8f67408-39c6-47a4-b652-8c77edc4a407,retail_x_supermarket_0147,validation,retail_area_x_000022,6a973bd2-6b59-4b54-8d5d-7d7d3e79736b,left,606,0,0,0,1.0,1.0,0.0,0.9900990099009901,20.16666603088379
+EgoDemo,f8f67408-39c6-47a4-b652-8c77edc4a407,retail_x_supermarket_0147,validation,retail_area_x_000022,6a973bd2-6b59-4b54-8d5d-7d7d3e79736b,right,606,0,0,0,1.0,1.0,0.0,0.9900990099009901,20.16666603088379
+EgoDemo,893ecfc5-e7d7-4760-bb0b-6370379a052e,retail_x_supermarket_0054,train,shelf_x_000443,e9a1a9a8-952e-4326-9a90-a27c0faca701,left,214,0,0,0,1.0,1.0,0.0,0.9813084112149533,7.099999904632568
+EgoDemo,893ecfc5-e7d7-4760-bb0b-6370379a052e,retail_x_supermarket_0054,train,shelf_x_000443,e9a1a9a8-952e-4326-9a90-a27c0faca701,right,214,0,0,0,1.0,1.0,0.0,0.9813084112149533,7.099999904632568
+EgoDemo,21cab582-4ee0-439d-a5d6-d5db9bcb4e4e,retail_x_supermarket_0054,train,shelf_x_000470,83b1f641-ddc0-4eb2-b84a-44dd25231999,left,239,0,0,0,1.0,1.0,0.0,0.9790794979079498,7.933333396911621
+EgoDemo,21cab582-4ee0-439d-a5d6-d5db9bcb4e4e,retail_x_supermarket_0054,train,shelf_x_000470,83b1f641-ddc0-4eb2-b84a-44dd25231999,right,239,0,0,0,1.0,1.0,0.0,0.9790794979079498,7.933333396911621
+EgoDemo,6f98461d-229f-4519-8949-b2d017ee5aed,retail_x_supermarket_0078,test,shelf_x_000480,bb853a77-b435-4c65-8c19-e96ca13bfff9,left,257,0,0,0,1.0,1.0,0.0,0.9844357976653697,8.533333778381348
+EgoDemo,6f98461d-229f-4519-8949-b2d017ee5aed,retail_x_supermarket_0078,test,shelf_x_000480,bb853a77-b435-4c65-8c19-e96ca13bfff9,right,257,0,0,0,1.0,1.0,0.0,0.9844357976653697,8.533333778381348
+EgoDemo,ff465fb3-2207-4ce2-a17a-ef6a5a74f7fc,retail_x_supermarket_0078,test,shelf_x_000481,5d11fd0b-8448-4d3f-a101-69427fcc0ca1,left,391,0,0,0,1.0,1.0,0.0,0.9974424552429667,13.0
+EgoDemo,ff465fb3-2207-4ce2-a17a-ef6a5a74f7fc,retail_x_supermarket_0078,test,shelf_x_000481,5d11fd0b-8448-4d3f-a101-69427fcc0ca1,right,391,0,0,0,1.0,1.0,0.0,0.9974424552429667,13.0
+EgoDemo,e1f63796-8907-468d-8de9-50fa93e427f9,retail_x_supermarket_0054,train,shelf_x_000470,83b1f641-ddc0-4eb2-b84a-44dd25231999,left,195,0,0,0,1.0,1.0,0.0,0.9846153846153847,6.4666666984558105
+EgoDemo,e1f63796-8907-468d-8de9-50fa93e427f9,retail_x_supermarket_0054,train,shelf_x_000470,83b1f641-ddc0-4eb2-b84a-44dd25231999,right,195,0,0,0,1.0,1.0,0.0,0.9846153846153847,6.4666666984558105
+EgoDemo,b71b0c3b-cb37-454f-b530-63f8daf35392,retail_x_supermarket_0054,train,shelf_x_000443,5d718bcd-1279-4d03-b63f-e33ebb7ea00b,left,249,0,0,0,1.0,1.0,0.0,0.9919678714859438,8.266666412353516
+EgoDemo,b71b0c3b-cb37-454f-b530-63f8daf35392,retail_x_supermarket_0054,train,shelf_x_000443,5d718bcd-1279-4d03-b63f-e33ebb7ea00b,right,249,0,0,0,1.0,1.0,0.0,0.9919678714859438,8.266666412353516
+EgoDemo,f615c5c8-5a1d-4075-91b2-1082efe17de9,retail_x_supermarket_0058,train,shelf_x_000451,5d11fd0b-8448-4d3f-a101-69427fcc0ca1,left,239,0,0,0,1.0,1.0,0.0,0.9790794979079498,7.933333396911621
+EgoDemo,f615c5c8-5a1d-4075-91b2-1082efe17de9,retail_x_supermarket_0058,train,shelf_x_000451,5d11fd0b-8448-4d3f-a101-69427fcc0ca1,right,239,0,0,0,1.0,1.0,0.0,0.9790794979079498,7.933333396911621
+EgoDemo,2915d2d9-fc74-4358-9741-72ac79ab816f,retail_x_supermarket_0049,train,shelf_x_000434,c59741a7-0583-4df7-b60f-bf2f6466cdd7,left,679,0,0,0,1.0,1.0,0.0,0.9911634756995582,22.600000381469727
+EgoDemo,2915d2d9-fc74-4358-9741-72ac79ab816f,retail_x_supermarket_0049,train,shelf_x_000434,c59741a7-0583-4df7-b60f-bf2f6466cdd7,right,679,0,0,0,1.0,1.0,0.0,0.9911634756995582,22.600000381469727
+EgoDemo,36141a13-aadf-49a3-a08b-83128cffb593,retail_x_supermarket_0058,train,detergent_shelf_x_000017,bb853a77-b435-4c65-8c19-e96ca13bfff9,left,305,0,0,0,1.0,1.0,0.0,0.9836065573770492,10.133333206176758
+EgoDemo,36141a13-aadf-49a3-a08b-83128cffb593,retail_x_supermarket_0058,train,detergent_shelf_x_000017,bb853a77-b435-4c65-8c19-e96ca13bfff9,right,305,0,0,0,1.0,1.0,0.0,0.9836065573770492,10.133333206176758
+EgoDemo,b76d4a5c-4f60-4042-a3ea-5f059f52c321,retail_x_supermarket_0066,train,shelf_x_000466,bb853a77-b435-4c65-8c19-e96ca13bfff9,left,179,0,0,0,1.0,1.0,0.0,0.9720670391061452,5.933333396911621
+EgoDemo,b76d4a5c-4f60-4042-a3ea-5f059f52c321,retail_x_supermarket_0066,train,shelf_x_000466,bb853a77-b435-4c65-8c19-e96ca13bfff9,right,179,0,0,0,1.0,1.0,0.0,0.9720670391061452,5.933333396911621
+EgoDemo,6fc6bf4f-a97d-4a59-8bbb-befa93d53a8c,retail_x_supermarket_0074,validation,shelf_x_000474,1b9f60e6-6e46-48f4-8477-d3e3f05bb855,left,791,0,0,0,1.0,1.0,0.0,0.9860935524652339,26.33333396911621
+EgoDemo,6fc6bf4f-a97d-4a59-8bbb-befa93d53a8c,retail_x_supermarket_0074,validation,shelf_x_000474,1b9f60e6-6e46-48f4-8477-d3e3f05bb855,right,791,0,0,0,1.0,1.0,0.0,0.9860935524652339,26.33333396911621
+EgoDemo,31eb209c-51c1-4fa0-a5de-e4839dec6d1a,retail_x_convenience_0014,train,finished_goods_warehouse_x_000002,fbcebadf-6686-4955-8e42-c7f9809818cc,left,1661,0,0,0,1.0,1.0,0.0,0.9969897652016857,55.33333206176758
+EgoDemo,31eb209c-51c1-4fa0-a5de-e4839dec6d1a,retail_x_convenience_0014,train,finished_goods_warehouse_x_000002,fbcebadf-6686-4955-8e42-c7f9809818cc,right,1661,0,0,0,1.0,1.0,0.0,0.9969897652016857,55.33333206176758
+EgoDemo,d539b696-53fa-4282-a6b3-2ecf77be4cc5,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,left,338,0,0,0,1.0,1.0,0.0,0.9970414201183432,11.233333587646484
+EgoDemo,d539b696-53fa-4282-a6b3-2ecf77be4cc5,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,right,338,0,0,0,1.0,1.0,0.0,0.9970414201183432,11.233333587646484
+EgoDemo,79e59cee-27ef-4793-9115-cab4968448ec,home_x_apartment_0342,train,kitchen_x_000292,81197377-c5f6-49aa-bfd5-a8713f30c9ad,left,286,0,0,0,1.0,1.0,0.0,0.986013986013986,9.500316619873047
+EgoDemo,79e59cee-27ef-4793-9115-cab4968448ec,home_x_apartment_0342,train,kitchen_x_000292,81197377-c5f6-49aa-bfd5-a8713f30c9ad,right,286,0,0,0,1.0,1.0,0.0,0.986013986013986,9.500316619873047
+EgoDemo,524cf2bd-b986-470e-81b7-3ec0afb3426e,home_x_apartment_0342,train,kitchen_x_000292,81197377-c5f6-49aa-bfd5-a8713f30c9ad,left,298,0,0,0,1.0,1.0,0.0,0.9865771812080537,9.90032958984375
+EgoDemo,524cf2bd-b986-470e-81b7-3ec0afb3426e,home_x_apartment_0342,train,kitchen_x_000292,81197377-c5f6-49aa-bfd5-a8713f30c9ad,right,298,0,0,0,1.0,1.0,0.0,0.9865771812080537,9.90032958984375
+EgoDemo,afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,left,381,0,0,0,1.0,1.0,0.0,0.9763779527559056,12.667088508605957
+EgoDemo,afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,home_x_apartment_0342,train,kitchen_x_000292,5666f5b8-183e-4284-81f3-4f377eaba797,right,381,0,0,0,1.0,1.0,0.0,0.9763779527559056,12.667088508605957
+EgoPro,33286224-adbe-4615-8bec-283d0fb99a45,logistics_x_courier_station_0021,train,package_room_x_000021,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,2458,0,0,0,1.0,1.0,0.0,0.9983726606997559,81.9
+EgoPro,33286224-adbe-4615-8bec-283d0fb99a45,logistics_x_courier_station_0021,train,package_room_x_000021,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,2458,0,0,0,1.0,1.0,0.0,0.9983726606997559,81.9
+EgoPro,1a0ac173-f104-4cd0-8959-8c61da6bae1b,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,181,0,0,0,1.0,1.0,0.0,0.9668508287292817,5.997401
+EgoPro,1a0ac173-f104-4cd0-8959-8c61da6bae1b,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,181,0,0,0,1.0,1.0,0.0,0.9668508287292817,5.997401
+EgoPro,3da72d6d-367e-438d-bb3b-b611675f1b7a,logistics_x_courier_station_0022,validation,pickup_counter_x_000016,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,1704,0,0,0,1.0,1.0,0.02640845070422535,0.9953051643192489,56.764775
+EgoPro,3da72d6d-367e-438d-bb3b-b611675f1b7a,logistics_x_courier_station_0022,validation,pickup_counter_x_000016,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,1704,0,0,0,1.0,1.0,0.02640845070422535,0.9953051643192489,56.764775
+EgoPro,8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,1503,0,0,0,1.0,1.0,0.0,0.998003992015968,50.066667
+EgoPro,8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,1503,0,0,0,1.0,1.0,0.0,0.998003992015968,50.066667
+EgoPro,3cd0ae33-561c-491a-b903-24cfffcb59e4,hospitality_x_restaurant_0004,validation,dining_area_x_000113,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,1150,0,0,0,1.0,1.0,0.04,1.0,38.291065
+EgoPro,3cd0ae33-561c-491a-b903-24cfffcb59e4,hospitality_x_restaurant_0004,validation,dining_area_x_000113,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,1150,0,0,0,1.0,1.0,0.04,1.0,38.291065
+EgoPro,6cc274d0-beda-4be1-974b-e20c6d20cf4b,logistics_x_courier_station_0022,validation,pickup_counter_x_000016,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,1004,0,0,0,1.0,1.0,0.0,0.9900398406374502,33.424419999
+EgoPro,6cc274d0-beda-4be1-974b-e20c6d20cf4b,logistics_x_courier_station_0022,validation,pickup_counter_x_000016,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,1004,0,0,0,1.0,1.0,0.0,0.9900398406374502,33.424419999
+EgoPro,3f45e623-4332-4dc2-a466-656864ae43dd,logistics_x_courier_station_0011,test,pickup_counter_x_000011,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,1650,0,0,0,1.0,1.0,0.07212121212121213,0.9963636363636363,54.966667
+EgoPro,3f45e623-4332-4dc2-a466-656864ae43dd,logistics_x_courier_station_0011,test,pickup_counter_x_000011,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,1650,0,0,0,1.0,1.0,0.07212121212121213,0.9963636363636363,54.966667
+EgoPro,c91705a7-1eb7-4b26-a543-124d90053f12,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,1374,0,0,0,1.0,1.0,0.0,0.9956331877729258,45.766667000000005
+EgoPro,c91705a7-1eb7-4b26-a543-124d90053f12,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,1374,0,0,0,1.0,1.0,0.0,0.9956331877729258,45.766667000000005
+EgoPro,a80b2d35-d1ea-4bee-9dc0-59de311785d4,logistics_x_courier_station_0022,validation,pickup_counter_x_000016,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,995,0,0,0,1.0,1.0,0.0,0.9959798994974874,33.51993
+EgoPro,a80b2d35-d1ea-4bee-9dc0-59de311785d4,logistics_x_courier_station_0022,validation,pickup_counter_x_000016,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,995,0,0,0,1.0,1.0,0.0,0.9959798994974874,33.51993
+EgoPro,f4c848a2-f864-4aef-b235-87e13cad3ae3,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,1022,0,0,0,1.0,1.0,0.043052837573385516,0.9980430528375733,34.033333
+EgoPro,f4c848a2-f864-4aef-b235-87e13cad3ae3,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,1022,0,0,0,1.0,1.0,0.043052837573385516,0.9980430528375733,34.033333
+EgoPro,0469c73b-fa42-4a7c-aec4-40029b0c6b7f,logistics_x_courier_station_0011,test,pickup_counter_x_000011,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,1487,0,0,0,1.0,1.0,0.03295225285810356,0.9966375252185609,49.534984
+EgoPro,0469c73b-fa42-4a7c-aec4-40029b0c6b7f,logistics_x_courier_station_0011,test,pickup_counter_x_000011,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,1487,0,0,0,1.0,1.0,0.03295225285810356,0.9966375252185609,49.534984
+EgoPro,df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,home_x_apartment_0701,train,kitchen_x_000754,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,1482,0,0,0,1.0,1.0,0.047908232118758436,0.9959514170040485,49.366667
+EgoPro,df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,home_x_apartment_0701,train,kitchen_x_000754,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,1482,0,0,0,1.0,1.0,0.047908232118758436,0.9959514170040485,49.366667
+EgoPro,733980b8-22ef-484e-9a20-39ff998d01a0,home_x_apartment_0701,train,kitchen_x_000754,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,1442,0,0,0,1.0,1.0,0.024965325936199722,0.9944521497919556,48.034934
+EgoPro,733980b8-22ef-484e-9a20-39ff998d01a0,home_x_apartment_0701,train,kitchen_x_000754,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,1442,0,0,0,1.0,1.0,0.024965325936199722,0.9944521497919556,48.034934
+EgoPro,75733965-f12b-487c-afc6-9301a617caa3,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,190,0,0,0,1.0,1.0,0.0,0.9789473684210527,6.3
+EgoPro,75733965-f12b-487c-afc6-9301a617caa3,office_x_corporate_office_0086,train,office_area_x_000109,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,190,0,0,0,1.0,1.0,0.0,0.9789473684210527,6.3
+EgoStandard,3fab4ba6-f91a-4f16-a622-940e721e579e,retail_x_supermarket_0054,train,shelf_x_000444,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,528,0,0,0,1.0,1.0,0.022727272727272728,0.9886363636363636,17.566667
+EgoStandard,3fab4ba6-f91a-4f16-a622-940e721e579e,retail_x_supermarket_0054,train,shelf_x_000444,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,528,0,0,0,1.0,1.0,0.022727272727272728,0.9886363636363636,17.566667
+EgoStandard,b46b05b7-8ae6-47f7-b24d-ffde79cc1bbf,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,242,0,0,0,1.0,1.0,0.0,0.9917355371900827,8.033333
+EgoStandard,b46b05b7-8ae6-47f7-b24d-ffde79cc1bbf,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,242,0,0,0,1.0,1.0,0.0,0.9917355371900827,8.033333
+EgoStandard,90c4897a-336c-4026-b015-28951adf0047,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,334,0,0,0,1.0,1.0,0.020958083832335328,0.9880239520958084,11.1
+EgoStandard,90c4897a-336c-4026-b015-28951adf0047,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,334,0,0,0,1.0,1.0,0.020958083832335328,0.9880239520958084,11.1
+EgoStandard,3a260141-6612-4ae3-985d-ee91e4dab986,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,385,0,0,0,1.0,1.0,0.0,0.9974025974025974,12.8
+EgoStandard,3a260141-6612-4ae3-985d-ee91e4dab986,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,385,0,0,0,1.0,1.0,0.0,0.9974025974025974,12.8
+EgoStandard,157d3f97-601d-4407-8f10-e0734b35efb9,retail_x_supermarket_0037,train,shelf_x_000397,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,318,0,0,0,1.0,1.0,0.012578616352201259,0.9811320754716981,10.566667
+EgoStandard,157d3f97-601d-4407-8f10-e0734b35efb9,retail_x_supermarket_0037,train,shelf_x_000397,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,318,0,0,0,1.0,1.0,0.012578616352201259,0.9811320754716981,10.566667
+EgoStandard,9a4fe4c1-c6e3-4a7a-8e2c-ec7901abe2c0,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,220,0,0,0,1.0,1.0,0.0,0.9818181818181818,7.3
+EgoStandard,9a4fe4c1-c6e3-4a7a-8e2c-ec7901abe2c0,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,220,0,0,0,1.0,1.0,0.0,0.9818181818181818,7.3
+EgoStandard,349e9a2e-eeaa-48d2-9893-db716410425e,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,325,0,0,0,1.0,1.0,0.0,0.9846153846153847,12.96
+EgoStandard,349e9a2e-eeaa-48d2-9893-db716410425e,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,325,0,0,0,1.0,1.0,0.0,0.9846153846153847,12.96
+EgoStandard,028b3d0d-11a6-4d3f-bd9b-8915ba281b3e,retail_x_supermarket_0074,validation,shelf_x_000474,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,533,0,0,0,1.0,1.0,0.0675422138836773,0.9906191369606003,17.733333
+EgoStandard,028b3d0d-11a6-4d3f-bd9b-8915ba281b3e,retail_x_supermarket_0074,validation,shelf_x_000474,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,533,0,0,0,1.0,1.0,0.0675422138836773,0.9906191369606003,17.733333
+EgoStandard,54b5eb6e-b47a-403c-810e-bf8082c2ce31,retail_x_supermarket_0037,train,shelf_x_000397,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,325,0,0,0,1.0,1.0,0.0,0.9969230769230769,10.8
+EgoStandard,54b5eb6e-b47a-403c-810e-bf8082c2ce31,retail_x_supermarket_0037,train,shelf_x_000397,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,325,0,0,0,1.0,1.0,0.0,0.9969230769230769,10.8
+EgoStandard,40861671-d69c-41ee-9918-7527bdb8777f,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,353,0,0,0,1.0,1.0,0.0,0.9858356940509915,11.733333
+EgoStandard,40861671-d69c-41ee-9918-7527bdb8777f,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,353,0,0,0,1.0,1.0,0.0,0.9858356940509915,11.733333
+EgoStandard,491ff057-af89-4d0e-adea-2b3004b95d0d,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,213,0,0,0,1.0,1.0,0.0,0.9859154929577465,7.066667
+EgoStandard,491ff057-af89-4d0e-adea-2b3004b95d0d,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,213,0,0,0,1.0,1.0,0.0,0.9859154929577465,7.066667
+EgoStandard,51561b02-2c99-495d-bdfb-d74a5f68f0c5,logistics_x_courier_station_0011,test,sorting_area_x_000030,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,3180,0,0,0,1.0,1.0,0.014150943396226415,0.9981132075471698,105.966667
+EgoStandard,51561b02-2c99-495d-bdfb-d74a5f68f0c5,logistics_x_courier_station_0011,test,sorting_area_x_000030,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,3180,0,0,0,1.0,1.0,0.014150943396226415,0.9981132075471698,105.966667
+EgoStandard,ec1f4754-8cec-4ae1-8695-dc90cb465344,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,267,0,0,0,1.0,1.0,0.0,0.9887640449438202,8.866667
+EgoStandard,ec1f4754-8cec-4ae1-8695-dc90cb465344,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,267,0,0,0,1.0,1.0,0.0,0.9887640449438202,8.866667
+EgoStandard,8b40cbcf-0808-4641-8c9e-a8e882fda95e,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,311,0,0,0,1.0,1.0,0.0,0.9646302250803859,10.333333
+EgoStandard,8b40cbcf-0808-4641-8c9e-a8e882fda95e,retail_x_supermarket_0054,train,shelf_x_000470,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,311,0,0,0,1.0,1.0,0.0,0.9646302250803859,10.333333
+EgoStandard,07648562-93fd-434a-ac35-5713f5375b1d,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,327,0,0,0,1.0,1.0,0.0,0.9908256880733946,10.866667
+EgoStandard,07648562-93fd-434a-ac35-5713f5375b1d,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,327,0,0,0,1.0,1.0,0.0,0.9908256880733946,10.866667
+EgoStandard,bd808e2d-fdc2-4b78-8fef-fe7a2b1de958,retail_x_supermarket_0071,train,refrigerated_section_x_000068,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,4012,0,0,0,1.0,1.0,0.007477567298105683,0.9990029910269193,133.699999999
+EgoStandard,bd808e2d-fdc2-4b78-8fef-fe7a2b1de958,retail_x_supermarket_0071,train,refrigerated_section_x_000068,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,4012,0,0,0,1.0,1.0,0.007477567298105683,0.9990029910269193,133.699999999
+EgoStandard,8ec22d0a-cf07-4b8c-b173-c53cbb5ee02c,logistics_x_courier_station_0041,test,package_room_x_000041,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,3637,0,0,0,1.0,1.0,0.004949133901567226,0.9997250481165796,121.19999999999999
+EgoStandard,8ec22d0a-cf07-4b8c-b173-c53cbb5ee02c,logistics_x_courier_station_0041,test,package_room_x_000041,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,3637,0,0,0,1.0,1.0,0.004949133901567226,0.9997250481165796,121.19999999999999
+EgoStandard,24f6fdd7-ea84-43ae-ad73-cf2c123ad61e,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,242,0,0,0,1.0,1.0,0.0,0.9917355371900827,8.033333
+EgoStandard,24f6fdd7-ea84-43ae-ad73-cf2c123ad61e,retail_x_supermarket_0058,train,shelf_x_000451,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,242,0,0,0,1.0,1.0,0.0,0.9917355371900827,8.033333
+EgoStandard,8d4b17e2-ac7c-4d06-8e94-b495eb842a0e,retail_x_supermarket_0124,train,shelf_x_000528,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,3945,0,0,0,1.0,1.0,0.0,0.9961977186311787,131.466667
+EgoStandard,8d4b17e2-ac7c-4d06-8e94-b495eb842a0e,retail_x_supermarket_0124,train,shelf_x_000528,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,3945,0,0,0,1.0,1.0,0.0,0.9961977186311787,131.466667
+EgoStandard,550f7ffa-f7cd-4d6a-ab0a-81610ead2dc7,retail_x_supermarket_0059,train,storage_shelves_area_x_000030,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,5220,0,0,0,1.0,1.0,0.019731800766283523,0.9988505747126437,173.966667
+EgoStandard,550f7ffa-f7cd-4d6a-ab0a-81610ead2dc7,retail_x_supermarket_0059,train,storage_shelves_area_x_000030,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,5220,0,0,0,1.0,1.0,0.019731800766283523,0.9988505747126437,173.966667
+EgoStandard,eac65645-5b2d-4f2b-91a8-3a0f690339de,retail_x_supermarket_0087,train,shelf_x_000499,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,left,4428,0,0,0,1.0,1.0,0.009033423667570008,0.9986449864498645,147.566667
+EgoStandard,eac65645-5b2d-4f2b-91a8-3a0f690339de,retail_x_supermarket_0087,train,shelf_x_000499,Operator performs the task while intentionally constraining hand motion to approximate robot gripper kinematics.,right,4428,0,0,0,1.0,1.0,0.009033423667570008,0.9986449864498645,147.566667
+EgoStandard,01480728-a6b7-4171-9a96-777e6210b672,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,494,0,0,0,1.0,1.0,0.030364372469635626,0.9959514170040485,16.433332999999998
+EgoStandard,01480728-a6b7-4171-9a96-777e6210b672,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,494,0,0,0,1.0,1.0,0.030364372469635626,0.9959514170040485,16.433332999999998
+EgoStandard,52dcf38e-ec4c-424e-91dd-8e1c63ba9e9b,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,536,0,0,0,1.0,1.0,0.0,0.996268656716418,17.833333
+EgoStandard,52dcf38e-ec4c-424e-91dd-8e1c63ba9e9b,retail_x_supermarket_0054,train,shelf_x_000468,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,536,0,0,0,1.0,1.0,0.0,0.996268656716418,17.833333
+EgoStandard,b02f85bd-fc26-4c2a-96e6-cb97f653eb22,retail_x_supermarket_0159,test,shelf_x_000619,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,left,1639,0,0,0,1.0,1.0,0.0,0.9957291031116534,54.6
+EgoStandard,b02f85bd-fc26-4c2a-96e6-cb97f653eb22,retail_x_supermarket_0159,test,shelf_x_000619,Operator performs the task using natural human hand manipulation without explicit constraint to robot kinematics.,right,1639,0,0,0,1.0,1.0,0.0,0.9957291031116534,54.6

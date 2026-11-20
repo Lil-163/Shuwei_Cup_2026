@@ -1,197 +1,84 @@
 {
-  "real_sequences": 138,
-  "frames": 132140,
-  "environment_counts": {
+  "unique_records": 69,
+  "hand_sequences": 138,
+  "hand_frames": 132140,
+  "record_counts_by_split": {
+    "test": 7,
+    "train": 55,
+    "validation": 7
+  },
+  "environment_counts_by_split": {
     "test": 4,
     "train": 16,
     "validation": 4
   },
-  "q1_quality_metrics": [
+  "scene_operator_overlap_audit": [
     {
-      "split": "validation",
-      "n_frames": 13566,
-      "good_rate": 0.9812767212148017,
-      "accuracy": 0.6434468524251806,
-      "precision": 0.9891492554542306,
-      "recall": 0.6437049278846154,
-      "f1": 0.7798862343572242,
-      "bad_precision": 0.03263308178666123,
-      "bad_recall": 0.6299212598425197,
-      "balanced_accuracy": 0.6368130938635675,
-      "majority_accuracy": 0.9812767212148017,
-      "brier": 0.22879006273372798,
-      "auc": 0.6901238832525742
+      "field": "scene_id",
+      "available_records": 69,
+      "overlap_identifiers": 0,
+      "status": "no_overlap_found"
     },
     {
-      "split": "test",
-      "n_frames": 24482,
-      "good_rate": 0.9811289927293522,
-      "accuracy": 0.6017073768482967,
-      "precision": 0.9852411072570224,
-      "recall": 0.6030807660283097,
-      "f1": 0.7481858327092425,
-      "bad_precision": 0.025053686471009307,
-      "bad_recall": 0.5303030303030303,
-      "balanced_accuracy": 0.56669189816567,
-      "majority_accuracy": 0.9811289927293522,
-      "brier": 0.24908645694531464,
-      "auc": 0.5903344435192894
+      "field": "operator_id",
+      "available_records": 69,
+      "overlap_identifiers": 4,
+      "status": "overlap_found"
     }
   ],
-  "q2_adaptive_threshold_from_validation": 0.002422105450684213,
-  "q2_train_accel_variance": 10.250572786419042,
-  "q2_train_measurement_variance": 1.2763396253498805e-06,
-  "q2_summary": [
-    {
-      "duration_s": 0.25,
-      "method": "adaptive_request",
-      "sequences": 7,
-      "points": 23866,
-      "mae": 0.026447813347339352,
-      "p95": 0.05131179349102925,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 0.25,
-      "method": "constant_velocity",
-      "sequences": 7,
-      "points": 23866,
-      "mae": 0.026447813347339363,
-      "p95": 0.05131179349102927,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 0.25,
-      "method": "last_value",
-      "sequences": 7,
-      "points": 23866,
-      "mae": 0.0609797079237153,
-      "p95": 0.10203650208434996,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 0.5,
-      "method": "adaptive_request",
-      "sequences": 7,
-      "points": 23884,
-      "mae": 0.05981298069280887,
-      "p95": 0.1242973028728991,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 0.5,
-      "method": "constant_velocity",
-      "sequences": 7,
-      "points": 23884,
-      "mae": 0.05981298069280886,
-      "p95": 0.12429730287289907,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 0.5,
-      "method": "last_value",
-      "sequences": 7,
-      "points": 23884,
-      "mae": 0.10405825496733001,
-      "p95": 0.18199145791814517,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 1.0,
-      "method": "adaptive_request",
-      "sequences": 7,
-      "points": 23888,
-      "mae": 0.1463657684109335,
-      "p95": 0.3147724813718429,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 1.0,
-      "method": "constant_velocity",
-      "sequences": 7,
-      "points": 23888,
-      "mae": 0.1463657684109335,
-      "p95": 0.31477248137184294,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 1.0,
-      "method": "last_value",
-      "sequences": 7,
-      "points": 23888,
-      "mae": 0.18779956688709157,
-      "p95": 0.33031178528984484,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 1.5,
-      "method": "adaptive_request",
-      "sequences": 7,
-      "points": 23886,
-      "mae": 0.13376681890859082,
-      "p95": 0.3325289600997037,
-      "requests": 0.9418181818181818,
-      "waiting_s": 0.9430338145907696
-    },
-    {
-      "duration_s": 1.5,
-      "method": "constant_velocity",
-      "sequences": 7,
-      "points": 23886,
-      "mae": 0.2534797846285714,
-      "p95": 0.5417750211522037,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 1.5,
-      "method": "last_value",
-      "sequences": 7,
-      "points": 23886,
-      "mae": 0.26099491616146014,
-      "p95": 0.45773430140354815,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 2.0,
-      "method": "adaptive_request",
-      "sequences": 7,
-      "points": 23888,
-      "mae": 0.16420602365569312,
-      "p95": 0.4002310423856498,
-      "requests": 0.9158878504672897,
-      "waiting_s": 0.9160471918023528
-    },
-    {
-      "duration_s": 2.0,
-      "method": "constant_velocity",
-      "sequences": 7,
-      "points": 23888,
-      "mae": 0.35855681408738593,
-      "p95": 0.7652046294674693,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    },
-    {
-      "duration_s": 2.0,
-      "method": "last_value",
-      "sequences": 7,
-      "points": 23888,
-      "mae": 0.3132986249663277,
-      "p95": 0.544858063321208,
-      "requests": 0.0,
-      "waiting_s": 0.0
-    }
+  "quality_threshold_from_validation": 0.7576549984119451,
+  "q1_quality_test": {
+    "split": "test",
+    "threshold_from_validation": 0.7576549984119451,
+    "n_frames": 24482,
+    "bad_rate": 0.018871007270647822,
+    "accuracy": 0.9417531247447104,
+    "balanced_accuracy": 0.5298208383345769,
+    "bad_precision": 0.0444234404536862,
+    "bad_recall": 0.10173160173160173,
+    "bad_f1": 0.06184210526315789,
+    "majority_accuracy": 0.9811289927293522,
+    "brier": 0.24396672493763588,
+    "auc": 0.6006866572228771
+  },
+  "motion_parameters_from_train": {
+    "median_frame_interval_s": 0.03333300000000072,
+    "acceleration_residual_variance": 6.091968575988479,
+    "acceleration_variance_cluster_bootstrap_95ci": [
+      3.9565984466807103,
+      8.363549128236924
+    ],
+    "reference_second_difference_variance_over_6": 1.2763396253498805e-06,
+    "train_environment_count": 16
+  },
+  "q2_interval_factor_from_validation": 2.4826592823588776,
+  "q2_error_tolerance_from_validation": 0.007517950522860152,
+  "q2_nominal_coverage": 0.9,
+  "q2_return_delay_s": 1.0,
+  "q2_request_budget": 3,
+  "q2_cost_per_request": 1.0,
+  "q2_mask_durations_s": [
+    0.25,
+    0.5,
+    1.0,
+    1.5,
+    2.0
   ],
-  "notes": "All fitting/evaluation rows come from supplied archives. Q2 masks contiguous portions of held-out real sequences."
+  "q2_windows": 6412,
+  "q2_replay_seconds": 7.7100391001440585,
+  "low_quality_events": 264,
+  "figures": [
+    "q1_state_error.png",
+    "q1_quality_model.png",
+    "q1_error_by_stage.png",
+    "q2_error_by_duration.png",
+    "q2_observation_tradeoff.png",
+    "low_quality_duration.png"
+  ],
+  "notes": [
+    "Coordinates are the coordinate-wise median of the 21 recorded hand keypoints.",
+    "A hand state is not interpreted as a product position.",
+    "Held-out records are qualified references, not independent physical ground truth.",
+    "Artificial masking does not represent actual robot performance."
+  ]
 }
